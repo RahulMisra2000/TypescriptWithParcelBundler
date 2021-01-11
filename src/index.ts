@@ -1,5 +1,7 @@
-import * as U from './User';
+// let U = require('./User');            // commonjs
+import * as U from './User';             // es6
 import * as C from './Company';
+
 
 
 
@@ -8,6 +10,9 @@ let company = new C.Company();
 
 console.log(user.getName(), user.getCity(), user.getLocation());
 console.log(company.getName(), company.getCatchPhrase(), company.getLocation());
+
+let x = window;
+console.log(x);
 
 
 
